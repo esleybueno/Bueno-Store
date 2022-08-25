@@ -1,0 +1,66 @@
+body {
+	color: #000000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h1 {
+	margin-top: 4.49vh;
+	margin-left: 0.77vw;
+	float: left;
+}
+.container {
+	position: relative;
+	width: 100vw;
+	height: 30vh;
+}
+.sacola {
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	
+	float: right;
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: right;
+	width: 10.81vw;
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+.busca {
+	position: absolute;
+	top: 35%;
+	left: 75%;
+	margin-right: 10rem;
+}
+.busca form {
+	width: 20.87vw;
+}
+:root {
+	--cor-fundo : rgb(255,255,255);
+	--cor-hover : rgb(118, 189, 145);
+	--cor-primaria: rgb(0,0,0);
+}
+.dp-menu{
+	position: absolute;
+	left: 48%;
+	top: 60%;
+}
+.dp-menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+.dp-menu ul li{
+	display: inline;
+	position: relative;
+}
+.dp-menu ul li a{
+	color: var(--cor-primaria);
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	transition: background .3s;
+}
+.dp-menu ul li a:hover{
+	background-color: var(--cor-hover);
+}
+
