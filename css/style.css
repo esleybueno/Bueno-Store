@@ -2,48 +2,42 @@ body {
 	color: #000000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-h1 {
-	margin-top: 4.49vh;
-	margin-left: 0.77vw;
-	float: left;
-}
 .container {
-	position: relative;
-	width: 100vw;
-	height: 30vh;
+	margin: 0 0 1.5% 3%;
+}
+.topo_bar {
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	margin-top: 1.5%;
 }
 .sacola {
 	background-image: url(../img/sacola.png);
 	background-repeat: no-repeat;
 	background-position: top right;
 	
-	float: right;
-	font-size: 14px;
+	font-size: 13px;
 	padding-right: 35px;
 	text-align: right;
 	width: 10.81vw;
-	position: absolute;
-	top: 35%;
-	left: 55%;
 }
 .busca {
-	position: absolute;
-	top: 35%;
-	left: 75%;
-	margin-right: 10rem;
-}
-.busca form {
-	width: 20.87vw;
+	margin-right: 5rem;
 }
 :root {
 	--cor-fundo : rgb(255,255,255);
 	--cor-hover : rgb(118, 189, 145);
 	--cor-primaria: rgb(0,0,0);
 }
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	flex-wrap: wrap;
+}
 .dp-menu{
-	position: absolute;
-	left: 48%;
-	top: 60%;
+	margin-right: 2%;
+	margin-bottom: 0.5%;
 }
 .dp-menu ul {
 	list-style-type: none;
@@ -65,7 +59,6 @@ h1 {
 }
 /*Início Banner-slider*/
 #slider {
-	
 	width: 100%;
 	height: 31vw;
 	position: relative;
@@ -80,9 +73,28 @@ object-fit: cover;
 
 transition: opacity 800ms;
 }
-
+.links {
+	margin-top: 2vh;
+}
 #slider img.selected {
 opacity: 1;
 }
-
+.flex li a img{
+	max-width: 75%;
+	display: block;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 90%;
+	margin: 0 auto;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.flex > li {
+	flex: 1 1 300px;
+	margin: 0.63rem;
+}
 
