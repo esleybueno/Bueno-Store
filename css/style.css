@@ -98,3 +98,52 @@ opacity: 1;
 	margin: 0.63rem;
 }
 
+footer {
+	background-color: #DCDCDC;
+	padding-top: 5em;
+	padding-bottom: 2.5rem;
+	width: 100vw;
+}
+.embrulho {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+  margin-bottom: 2%;
+}
+.politicas-footer h2, footer a, .atendimento-footer h2{
+	color: black;
+}
+footer h2 {
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	margin-bottom: 1rem;
+}
+footer a {
+	text-decoration: none;
+	color: #363636;
+}
+footer ul {
+	padding: 0;
+}
+footer li {
+	list-style: none;
+}
+.footer-list li {
+	margin-bottom: 0.94rem;
+}
+.footer-list a {
+	transition: .5s;
+}
+.footer-list a:hover {
+	color: var(--cor-hover);
+}
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
+}
+.container-pagamento{
+  margin-left: 38%;
+  margin-top: 2rem;
+  top: 0.63rem;
+}
+
